@@ -1,0 +1,32 @@
+.section{
+    
+    /* color: blue;
+    align-content: center; */
+
+        /* height: 70px; */
+        display: flex;
+        /* flex-wrap: wrap; */
+        justify-content: center;    
+}
+
+.column{
+  float: left;
+  width: 25%;
+  padding-left: 10px;
+  /* justify-content: center; */
+  text-align: center;
+  padding-top: 20px;
+  /* display: flex; */
+  
+  /* height: 300px; */
+}
+
+/* .column-content{
+    
+} */
+
+.row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }

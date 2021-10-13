@@ -1,0 +1,25 @@
+.header {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    /* justify-content:center; */
+    align-items: center;
+    padding-left: 1em;
+    padding-top: 0.5em;
+    
+   
+    /* background-color: none; */
+    background-color: rgb(48, 111, 139);
+    color: #fff;
+    height: 70px;
+
+}
+  /* } -lepadding-left*/
+
+/* .logo { */
+      /* height: 50px; */
+      /* animation: App-logo-spin infinite 20s linear; */
+    /* } */
+.spacer{
+  flex: 1;
+}
